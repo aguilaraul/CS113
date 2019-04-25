@@ -1,0 +1,19 @@
+How often do you get a solution in fewer than 20 guesses? Does this change 
+depending on the theory you test (1, 2, 3)?
+
+Not often, and doesn't change depending on solution set because alogrithm
+is still chooisng randomly and possibly checking previous solutions that 
+were wrong.
+
+
+What is good or bad about this strategy?
+
+The best case for this strategy is to randomly guess the right answers on
+first try. Or as per the requirement for the assignment, a good senario
+would be less than 20 tries.
+
+The worst case for this strategy is getting a solution after nearly
+infinite attempts because previous attempts that were wrong could be 
+selected to try again. This is a bad strategy becuase the algorithm 
+randomly chooses option and it does not track previous attempts nor operate
+in an organized fashion.
